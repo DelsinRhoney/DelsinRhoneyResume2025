@@ -1,5 +1,3 @@
-# DelsinRhoneyResume2025
-
 # Delsin Rhoney
 
 📍 Honolulu, Hawai‘i  
