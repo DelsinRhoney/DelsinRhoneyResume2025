@@ -1,287 +1,74 @@
 # DelsinRhoneyResume2025
 
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Delsin Rhoney — Resume</title>
-  <style>
-    :root{
-      --accent:#0f66d4;
-      --muted:#666;
-      --paper:#fbfbfc;
-      --card:#ffffff;
-      --radius:12px;
-      --max-w:900px;
-      font-family:Inter, system-ui, -apple-system, "Helvetica Neue", Arial;
-    }
-    body{
-      margin:0;
-      padding:30px;
-      background:linear-gradient(180deg,#f4f7fb, #ffffff);
-      color:#111;
-      -webkit-font-smoothing:antialiased;
-      -moz-osx-font-smoothing:grayscale;
-    }
-    .container{
-      max-width:var(--max-w);
-      margin:0 auto;
-      background:var(--card);
-      border-radius:var(--radius);
-      box-shadow:0 10px 30px rgba(20,30,60,0.08);
-      overflow:hidden;
-      display:grid;
-      grid-template-columns: 1fr;
-    }
-    header{
-      padding:28px 32px;
-      display:flex;
-      gap:20px;
-      align-items:center;
-      border-bottom:1px solid #eee;
-      background:linear-gradient(90deg, rgba(255,255,255,0.6), rgba(250,250,255,0.6));
-    }
-    .avatar{
-      width:96px;
-      height:96px;
-      border-radius:12px;
-      background:linear-gradient(135deg,var(--accent), #7ac7ff);
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      color:white;
-      font-weight:700;
-      font-size:28px;
-      flex:0 0 96px;
-    }
-    .head-info h1{
-      margin:0;
-      font-size:22px;
-      letter-spacing:0.2px;
-    }
-    .head-info p{
-      margin:6px 0 0 0;
-      color:var(--muted);
-      font-size:14px;
-    }
-    .content{
-      display:grid;
-      grid-template-columns: 1fr 320px;
-      gap:28px;
-      padding:26px 32px 40px;
-    }
-    .section{
-      margin-bottom:18px;
-    }
-    h2{
-      margin:0 0 12px 0;
-      font-size:16px;
-      color:var(--accent);
-      display:flex;
-      align-items:center;
-      gap:10px;
-    }
-    p, li{
-      color:#222;
-      line-height:1.45;
-      font-size:14px;
-    }
-    .skills-list{
-      display:flex;
-      flex-wrap:wrap;
-      gap:8px;
-    }
-    .chip{
-      background:#f3f6fb;
-      border-radius:999px;
-      padding:6px 10px;
-      font-size:13px;
-      color:#0a2540;
-    }
-    ul{
-      padding-left:18px;
-      margin:6px 0;
-    }
-    .sidebar{
-      background:linear-gradient(180deg,#fbfdff,#ffffff);
-      padding:18px;
-      border-radius:10px;
-      border:1px solid #f0f3f6;
-      height:fit-content;
-    }
-    .muted{
-      color:var(--muted);
-      font-size:13px;
-    }
-    .job{
-      margin-bottom:12px;
-    }
-    .job .title{
-      font-weight:600;
-      font-size:14px;
-    }
-    .job .meta{
-      font-size:13px;
-      color:var(--muted);
-    }
-    a {
-      color:var(--accent);
-      text-decoration:none;
-    }
-    .links a{ display:block; margin-bottom:6px; }
-    @media (max-width:900px){
-      .content{ grid-template-columns: 1fr; }
-      .avatar{ display:none; }
-    }
-  </style>
-</head>
-<body>
-  <div class="container" role="main">
-    <header>
-      <div class="avatar" aria-hidden="true">DR</div>
-      <div class="head-info">
-        <h1>Delsin Rhoney</h1>
-        <p>Honolulu, Hawai‘i · 808-398-5619 · <a href="mailto:drhoney@hawaii.edu">drhoney@hawaii.edu</a></p>
-      </div>
-    </header>
+# Delsin Rhoney
 
-    <div class="content">
-      <main>
-        <section class="section">
-          <h2>Profile</h2>
-          <p>
-            Highly motivated Computer Science senior specializing in Creative Computational Media and 3D Animation, with hands-on experience in video game design, VR/AR, and interactive storytelling.
-            Eager to contribute technical and creative expertise to an internship team in animation, game development, or interactive media — supporting character rigging, animation pipelines, and immersive experiences.
-          </p>
-        </section>
+📍 Honolulu, Hawai‘i  
+📞 808-398-5619  
+✉️ [drhoney@hawaii.edu](mailto:drhoney@hawaii.edu)  
+🌐 [delsinrhoney.github.io](https://delsinrhoney.github.io)  
+🔗 [linkedin.com/in/delsin-rhoney-53a06428a](https://www.linkedin.com/in/delsin-rhoney-53a06428a)
 
-        <section class="section">
-          <h2>Skills & Tools</h2>
-          <div class="skills-list" aria-hidden="false">
-            <span class="chip">Maya</span>
-            <span class="chip">Blender</span>
-            <span class="chip">Unreal Engine</span>
-            <span class="chip">Unity</span>
-            <span class="chip">3D Modeling</span>
-            <span class="chip">Rigging</span>
-            <span class="chip">Animation</span>
-            <span class="chip">Texturing</span>
-            <span class="chip">Lighting</span>
-            <span class="chip">Rendering</span>
-            <span class="chip">C++</span>
-            <span class="chip">Python</span>
-            <span class="chip">Java</span>
-            <span class="chip">JavaScript</span>
-            <span class="chip">Adobe Creative Suite</span>
-            <span class="chip">Google Workspace</span>
-          </div>
-        </section>
+---
 
-        <section class="section">
-          <h2>Education</h2>
-          <p><strong>University of Hawai'i at Mānoa</strong> — Bachelor of Science, Computer Science (Creative Computational Media Specialization). <span class="muted">Expected Dec 2025</span></p>
+## Profile
+Highly motivated Computer Science senior specializing in Creative Computational Media and 3D Animation, with hands-on experience in video game design, VR/AR, and interactive storytelling. Eager to contribute technical and creative expertise to an internship team in animation, game development, or interactive media — supporting character rigging, animation pipelines, and immersive experiences.
 
-          <p><strong>Leeward Community College</strong> — Associate of Science, Computer and Information Sciences (Honors). <span class="muted">Dec 2022</span></p>
+---
 
-          <p class="muted" style="margin-top:8px">Relevant coursework: 2D & 3D Animation Production, Virtual & Augmented Reality Programming (ICS 486/685), Video Game Design and Development (ICS 485/691E), Software Techniques for Computer Visual Effects (ICS 489).</p>
-        </section>
+## Skills & Tools
+- **3D & Animation**: Maya, Blender, Rigging, Animation, Texturing, Lighting, Rendering  
+- **Game Engines**: Unreal Engine, Unity  
+- **Programming**: C++, Python, Java, JavaScript  
+- **Creative & Productivity**: Adobe Creative Suite, Google Workspace  
+- **Other Strengths**: Analytical thinking, creative writing, graphic design, research
 
-        <section class="section">
-          <h2>Employment & Internships</h2>
+---
 
-          <div class="job">
-            <div class="title">Window Automation Tech — Solar Shading Solutions</div>
-            <div class="meta">Wahiawa, HI · Jul–Aug 2025 (Summer)</div>
-            <ul>
-              <li>Developed and optimized pricing lists for services and parts.</li>
-              <li>Programmed and tested motorized window shades and equipment for optimal performance.</li>
-              <li>Handled office tasks including data entry and documentation.</li>
-            </ul>
-          </div>
+## Education
+**University of Hawai‘i at Mānoa** — B.S. Computer Science (Creative Computational Media)  
+*Expected Dec 2025*  
 
-          <div class="job">
-            <div class="title">Intern — Oceanit</div>
-            <div class="meta">Waipahu, HI · Aug 2021 – May 2022</div>
-            <ul>
-              <li>Collaborated with R&D teams to prototype interactive media simulations.</li>
-              <li>Enhanced 3D graphics and animation skills applied to figure rigging for immersive environments.</li>
-            </ul>
-          </div>
+**Leeward Community College** — A.S. Computer and Information Sciences (Honors)  
+*Dec 2022*  
 
-          <div class="job">
-            <div class="title">Intern — Kaana Solutions</div>
-            <div class="meta">Waipahu, HI · Aug 2019 – May 2020</div>
-            <ul>
-              <li>Developed and managed social media content and interactive prototypes using Unreal Engine.</li>
-              <li>Contributed to rendering, cinematography, and 2D/3D animation production.</li>
-            </ul>
-          </div>
+**Relevant Coursework**: 2D & 3D Animation Production, Virtual & Augmented Reality Programming, Video Game Design & Development, Software Techniques for Computer Visual Effects
 
-          <div class="job">
-            <div class="title">Office Assistant — YMCA Camp Erdman</div>
-            <div class="meta">Waialua, HI · Jun–Jul 2025 (Summer)</div>
-            <ul>
-              <li>Supported administrative duties, organized and filed camp records, and assembled office/camp furniture.</li>
-            </ul>
-          </div>
-        </section>
+---
 
-        <section class="section">
-          <h2>Additional Strengths</h2>
-          <ul>
-            <li>Analytical thinking, creative writing, graphic design, and research skills.</li>
-            <li>Experience with animation pipelines, rendering, and interactive storytelling.</li>
-            <li>Portfolio includes interactive projects and game/animation demos.</li>
-          </ul>
-        </section>
-      </main>
+## Employment & Internships
+**Window Automation Tech** — Solar Shading Solutions, Wahiawa, HI  
+*Jul–Aug 2025 (Summer)*  
+- Developed and optimized pricing lists for services and parts  
+- Programmed and tested motorized window shades and equipment for performance  
+- Handled office tasks including data entry and documentation  
 
-      <aside class="sidebar" aria-labelledby="contact-heading">
-        <div id="contact-heading" class="section">
-          <h2>Contact</h2>
-          <p class="muted">Email</p>
-          <p><a href="mailto:drhoney@hawaii.edu">drhoney@hawaii.edu</a></p>
+**Office Assistant** — YMCA Camp Erdman, Waialua, HI  
+*Jun–Jul 2025 (Summer)*  
+- Supported administrative duties, organized camp records, and assembled office/camp furniture  
 
-          <p class="muted">Phone</p>
-          <p>808-398-5619</p>
+**Intern** — Oceanit, Waipahu, HI  
+*Aug 2021 – May 2022*  
+- Collaborated with R&D teams to prototype interactive media simulations  
+- Enhanced 3D graphics and animation skills applied to rigging for immersive environments  
 
-          <p class="muted">Location</p>
-          <p>Honolulu, Hawai‘i, USA</p>
-        </div>
+**Intern** — Kaana Solutions, Waipahu, HI  
+*Aug 2019 – May 2020*  
+- Developed and managed social media content and interactive prototypes using Unreal Engine  
+- Contributed to rendering, cinematography, and 2D/3D animation production  
 
-        <div class="section links">
-          <h2>Portfolio & Links</h2>
-          <a href="https://delsinrhoney.github.io" target="_blank" rel="noopener">delsinrhoney.github.io</a>
-          <a href="https://www.linkedin.com/in/delsin-rhoney-53a06428a/" target="_blank" rel="noopener">linkedin.com/in/delsin-rhoney-53a06428a</a>
-        </div>
+---
 
-        <div class="section">
-          <h2>Languages</h2>
-          <p class="muted">Proficiency</p>
-          <ul>
-            <li>English — ***** (native/full professional)</li>
-            <li>Spanish — *** (conversational/intermediate)</li>
-          </ul>
-        </div>
+## Languages
+- **English** — Native / Full professional  
+- **Spanish** — Conversational / Intermediate  
 
-        <div class="section">
-          <h2>Certs & Awards</h2>
-          <p class="muted">Certificates</p>
-          <ul>
-            <li>Video Game Design, Development, and Animation</li>
-            <li>Digital Media</li>
-          </ul>
+---
 
-          <p class="muted" style="margin-top:8px">High School: Hawai'i Technology Academy — Graduated Summa Cum Laude (May 2022)</p>
-          <p class="muted">Weighted cumulative GPA: 4.28</p>
-        </div>
-      </aside>
-    </div>
-  </div>
+## Certificates & Awards
+- Creative Computational Media Certificate (UH Mānoa, 2025)  
+- Video Game Design, Development, and Animation  
+- Digital Media  
+- **High School**: Hawai‘i Technology Academy — Graduated *Summa Cum Laude* (May 2022)  
+  - Weighted Cumulative GPA: **4.28**  
 
-  <footer style="max-width:var(--max-w);margin:18px auto 60px;padding:0 18px;color:var(--muted);font-size:13px;">
-    <p>Converted from uploaded PDF resume. Source: uploaded file.</p>
-  </footer>
-</body>
-</html>
+---
